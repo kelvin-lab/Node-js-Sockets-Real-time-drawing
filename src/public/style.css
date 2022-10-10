@@ -1,0 +1,79 @@
+body, html{
+    width: 100%;
+    height:100%;
+}
+canvas{
+    display: block;
+}
+.content{
+    position: relative;
+}
+.colors{
+    position: absolute;
+    top:5px;
+    padding: 10px;
+}
+.delete{
+    position: absolute;
+    top:5px;
+    padding: 10px;
+    margin-left: 170px;
+}
+#color1{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border: 0px;
+    border-radius: 50%;
+    outline: none;
+}
+#color2{
+    width: 30px;
+    height: 30px;
+    background-color: yellowgreen;
+    border: 0px;
+    border-radius: 50%;
+    outline: none;
+}
+#color3{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(28, 28, 119);
+    border: 0px;
+    border-radius: 50%;
+    outline: none;
+}
+#color4{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border: 0px;
+    border-radius: 50%;
+    outline: none;
+}
+#color5{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border: 0px;
+    border-radius: 50%;
+    outline: none;
+}
+
+#delete_all{
+    width: 30px;
+    height: 30px;
+    border-color: black;
+    background-color: rgb(168, 18, 18);
+    color:#fff;
+    border-radius: 50%;
+}
+
+#users{
+    position: absolute;
+    top:5px;
+    padding: 10px;
+    margin-left:80%; 
+    font-size: 20px;
+    color:rgb(10, 69, 140);
+}

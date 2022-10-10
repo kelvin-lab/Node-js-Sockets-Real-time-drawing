@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhiteBoard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <canvas id="canvas"></canvas>
+        <div class="colors">
+            <button id="color1" onclick="change_color('red')"></button>
+            <button id="color2" onclick="change_color('yellowgreen')"></button>
+            <button id="color3" onclick="change_color('rgb(28, 28, 119)')"></button>
+            <button id="color4" onclick="change_color('yellow')"></button>
+            <button id="color5" onclick="change_color('black')"></button>
+        </div>
+        <div class="delete">
+            <button id="delete_all" onclick="delete_all()">X</button>
+        </div>
+        <div id="users">
+            Número de usuarios conectados:0
+        </div>
+        
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
